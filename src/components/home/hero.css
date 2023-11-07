@@ -1,8 +1,9 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     padding: 2rem;        /* Add some space around the section */
+    height: 80vh;
 }
 
 .hero-text h2 {

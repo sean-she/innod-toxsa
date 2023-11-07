@@ -7,22 +7,20 @@ export default function Footer(props) {
     return (
         <div className="footer-container">
             <div className="logo-container">
-                <div className='logo-description'>
-                    <img src={logo} alt="toxsa logo"/>
-                    
-                    <div className="logo-midsection">
-                        <div className="ocf">
-                            <a href="https://www.ocf.berkeley.edu">
-                                <img src="http://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
-                                alt="Hosted by the OCF"/>
-                            </a>
-                        </div>
-                        <div className="description">
-                            <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
-                        </div>
+                <img src={logo} alt="toxsa logo"/>
+
+                <div className="logo-midsection">
+                    <div className="ocf">
+                        <a href="https://www.ocf.berkeley.edu">
+                            <img src="http://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
+                            alt="Hosted by the OCF"/>
+                        </a>
                     </div>
-                    <p>© 2023 Toxicology Student Association</p>
+                    <div className="description">
+                        <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
+                    </div>
                 </div>
+                <p>© 2023 Toxicology Student Association</p>
             </div>
             <div className="footer-navigation">
                 <div className="footer-pages">
