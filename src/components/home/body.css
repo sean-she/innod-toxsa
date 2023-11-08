@@ -1,0 +1,96 @@
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px; /* Adjust the gap as needed */
+  background-color: #DDE9ED;
+  padding: 100px;
+}
+
+.image-container img {
+    width: 400px; /* Set the width of the image */
+    height: auto; /* Set the height to auto to maintain aspect ratio */
+    /* Alternatively, you can use height: 200px; or any other value if you want a specific height. */
+  }
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the content to the left */
+}
+
+.content-container p {
+  margin-bottom: 20px; /* Adjust the space between paragraph and button */
+}
+
+button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  background-color: #4295AF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.body-container p {
+    padding-bottom: 15px;
+}
+
+/* VALUES SECTION STYLING */
+.values-section {
+  width: 100%;
+  height: 80vh;
+}
+
+.values-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.values-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    min-height: 30vh;
+    border: 2px solid black; /* dev purposes */
+}
+
+.values-section p, h3 {
+  text-align: center;
+  font-family: sans-serif; /* TODO: update font */
+  /* font-size: 12; TODO: update font */
+}
+
+.values-section p {
+
+}
+
+.values-section h2, h3 {
+  font-family: sans-serif; /* REPLACE with header font */
+}
+
+.values-block .values-img-container {
+  height: 10rem;
+  width: 100%;
+  background-color: blue; /* dev purposes */
+  border: 2px solid black; /* dev purposes */
+}
+
+.values-section h2{
+  padding-left: 2rem;
+  text-align: left;
+  color: #4295AF;
+}
+
+.values-block h3{
+  color: #4295AF;
+}
+
+
+
