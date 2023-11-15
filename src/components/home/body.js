@@ -1,6 +1,9 @@
 import React from 'react'
 import body from './body.css'
 import member_image from "../../images/toxsaMemberImage.png"
+import value_career from "../../images/value_career.png"
+import value_science from "../../images/value_science.png"
+import value_community from "../../images/value_community.png"
 
 export default function Body() {
   return (
@@ -23,7 +26,7 @@ export default function Body() {
         <div className="values-container">
           <div className="values-block">
               <div className="values-img-container">
-                <img src="" alt_text="value.png" />
+                <img src={value_career} alt_text="Career Prep" />
               </div>
               <h3>Career Prep</h3>
               <p>
@@ -32,7 +35,7 @@ export default function Body() {
           </div>
           <div className="values-block">
               <div className="values-img-container">
-                <img src="" alt_text="value.png" />
+                <img src={value_science} alt_text="Scientific Exploration" />
               </div>
               <h3>Scientific Exploration</h3>
               <p>
@@ -41,7 +44,7 @@ export default function Body() {
           </div>
           <div className="values-block">
               <div className="values-img-container">
-                <img src="" alt_text="value.png" />
+                <img src={value_community} alt_text="Community" />
               </div>
               <h3>Community</h3>
               <p>

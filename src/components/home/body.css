@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 .body-container {
   display: flex;
   align-items: center;
@@ -40,7 +46,7 @@ button {
 /* VALUES SECTION STYLING */
 .values-section {
   width: 100%;
-  height: 80vh;
+  height: 40vh;
 }
 
 .values-container {
@@ -58,39 +64,29 @@ button {
     justify-content: flex-start;
     width: 25%;
     min-height: 30vh;
-    border: 2px solid black; /* dev purposes */
-}
-
-.values-section p, h3 {
-  text-align: center;
-  font-family: sans-serif; /* TODO: update font */
-  /* font-size: 12; TODO: update font */
-}
-
-.values-section p {
-
 }
 
 .values-section h2, h3 {
-  font-family: sans-serif; /* REPLACE with header font */
-}
-
-.values-block .values-img-container {
-  height: 10rem;
-  width: 100%;
-  background-color: blue; /* dev purposes */
-  border: 2px solid black; /* dev purposes */
+  color: #4295AF;
 }
 
 .values-section h2{
   padding-left: 2rem;
   text-align: left;
-  color: #4295AF;
 }
 
-.values-block h3{
-  color: #4295AF;
+.values-section p, h3 {
+  text-align: center;
+  margin-top: 0;
 }
 
+.values-section p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #303030;
+}
 
-
+.values-block .values-img-container {
+  min-height: 10rem;
+  width: 100%;
+}
