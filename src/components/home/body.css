@@ -8,35 +8,50 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px; /* Adjust the gap as needed */
+  /* gap: 80px; Adjust the gap as needed */
   background-color: #DDE9ED;
   padding: 100px;
 }
 
 .image-container img {
-    width: 400px; /* Set the width of the image */
-    height: auto; /* Set the height to auto to maintain aspect ratio */
+    height: 400px; /* Set the width of the image */
+    width: auto;
     /* Alternatively, you can use height: 200px; or any other value if you want a specific height. */
   }
+
+.image-container {
+  width: 50%;
+}
 
 .content-container {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Aligns the content to the left */
+  width: 50%;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .content-container p {
   margin-bottom: 20px; /* Adjust the space between paragraph and button */
+  color: #4296AF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
 }
 
 button {
-  padding: 10px 20px; /* Adjust padding as needed */
   cursor: pointer;
   background-color: #4295AF;
   color: white;
   border: none;
   border-radius: 10px;
+  font-size: 18px;
+}
+
+#learnmore {
+  padding: 20px 30px; /* Adjust padding as needed */
 }
 
 .body-container p {
@@ -49,10 +64,15 @@ button {
   min-height: 40vh;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin: 0;
+}
+
+#values_title {
+  margin-left: 3rem;
 }
 
 #values_underline {
-  border: 0.5px solid rgba(217, 217, 217);
+  border: 1px solid rgba(217, 217, 217);
   height: 0;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -98,6 +118,9 @@ button {
 .values-block .values-img-container {
   min-height: 10rem;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -109,8 +132,8 @@ button {
 }
 
 .join-container {
-  background-color: #FAF7DF;
-  border: 5px solid #FBEA71;
+  background-color: rgba(198, 218, 168, 0.2);
+  border: 5px solid #C6DAA8;
   border-radius: 20px;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -121,6 +144,10 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.join-container h1 {
+  font-size: 40px;
 }
 
 .join-text {

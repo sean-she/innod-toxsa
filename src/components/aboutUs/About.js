@@ -1,20 +1,18 @@
-import './App.css';
 import Header from '../home/header'
 import Officers from './officers'
-import aboutHeader from './aboutHeader'
+import AboutHeader from './aboutHeader';
+import AboutBody from './aboutBody'
 
-
-
-
-function App() {
+function About() {
  return (
-   <div className="App">
-       <Header />
-       <aboutHeader />
-       <Officers />
-   </div>
+  <>
+    <Header />
+    <AboutHeader />
+    <AboutBody />
+    <Officers />
+  </>
  );
 }
 
 
-export default App;
+export default About;

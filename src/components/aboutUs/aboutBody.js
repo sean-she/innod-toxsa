@@ -17,7 +17,7 @@ export default function AboutBody() {
               className='mentorship-title'> 
                 Mentorship and Career Preparations 
             </h3>
-             <p> 
+             <p className='mentorship-description'> 
                Our career services offer mentoring, speaker events, resume and interview prep, plus access to exclusive scholarships and internships. ToxSA membership includes affiliation with the NorCal SOT, opening doors to professional networks and additional academic benefits.
             </p>
                 

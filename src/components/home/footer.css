@@ -11,6 +11,11 @@
 #topline {
     margin-left: 3rem;
     margin-right: 3rem;
+    border-top: 1px solid #D9D9D9;
+}
+
+#footer_toxlogo {
+    margin-left: 3rem;
 }
 
 .footer-navigation {

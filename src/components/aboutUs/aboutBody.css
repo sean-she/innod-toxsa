@@ -12,11 +12,18 @@
     padding-right: 0px;
 }
 
+.mentorship-description {
+    width: 50vw;
+}
+
+.mentorship-title {
+    font-size: 50px;
+}
 
 .mentorship-image {
     width: 35%;
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 7rem;
 
 }
 
@@ -53,6 +60,7 @@
 
 .projects-description{
     padding-right: 3rem;
+    width: 50vw;
 }
 
 /* COMMUNITY */
@@ -69,7 +77,8 @@ color:#4296AF;
 }
 
 .community-descrip {
-    padding-right: 2rem;
+    padding-right: 7rem;
+    width: 50vw;
 }
 
 .community-image {

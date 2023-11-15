@@ -10,7 +10,7 @@ export default function Footer(props) {
             <div className="footer-container">
                 <div className="logo-container">
                     <div className="contain-width">
-                        <img src={logo} alt="toxsa logo"/>
+                        <img id="footer_toxlogo" src={logo} alt="toxsa logo"/>
                         <div className="logo-midsection">
                             <div id="leftspace"></div>
                             <div className="ocf">

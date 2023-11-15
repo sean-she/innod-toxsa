@@ -16,13 +16,14 @@ export default function Body() {
           <p>
             {"We unite students who are interested in toxicology, pharmacology, environmental health and related fields by providing mentorship, career preparation, networking, and community service opportunities."}
           </p>
-          <button>
+          <button id="learnmore">
             {"Learn More"}
           </button>
         </div>
       </section>
       <section className="values-section">
-        <h2>Our Values</h2>
+        <h2 id="values_title">Our Values</h2>
+        <div id="values_underline"></div>
         <div className="values-container">
           <div className="values-block">
               <div className="values-img-container">
