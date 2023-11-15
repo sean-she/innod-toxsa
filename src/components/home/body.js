@@ -23,6 +23,7 @@ export default function Body() {
       </section>
       <section className="values-section">
         <h2>Our Values</h2>
+        <hr id="topline"></hr>
         <div className="values-container">
           <div className="values-block">
               <div className="values-img-container">
