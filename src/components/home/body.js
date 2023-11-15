@@ -23,6 +23,7 @@ export default function Body() {
       </section>
       <section className="values-section">
         <h2>Our Values</h2>
+        <div id="values_underline"></div>
         <div className="values-container">
           <div className="values-block">
               <div className="values-img-container">
@@ -51,6 +52,15 @@ export default function Body() {
                 We aim to foster an inclusive community where students can explore toxicology, experience personal growth, and benefit from networking resources
               </p>
           </div>
+        </div>
+      </section>
+      <section className="join-section">
+        <div className="join-container">
+          <div className="join-text">
+            <h1>Join The Community</h1>
+            <p>Check out our membership details and simply fill out an interest form</p>
+          </div>
+          <button type="button">Become a member</button>
         </div>
       </section>
     </div>

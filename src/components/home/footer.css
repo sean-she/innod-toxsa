@@ -1,10 +1,3 @@
-/* .footer-navigation,
-.logo-container,
-.footer-container {
-  border: 2px solid black;
-} */
-
-
 .footer-container {
     display: flex;
     flex-direction: row;
