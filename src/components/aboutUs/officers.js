@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home/body.css';
+import './officers.css';
 import NatalieOh from "../../images/mem1.png";
 import VincentLee from "../../images/toxsaMemberImage.png";
 import JessPatrick from "../../images/toxsaMemberImage.png";
@@ -11,33 +11,82 @@ export default function Officers() {
   return (
   <>
     <h2>Our Officers</h2>
-    <div className="values-container">
+    <div className="officer-container">
 
       {/* Top row of value blocks */}
-      <div className="values-row">
-        <div className="values-block">
-          <div className="values-img-container">
+      <div className="officer-row">
+        <div className="officer-block">
+          <div className="officer-img-container">
             <img src={NatalieOh} alt="Natalie Oh" />
           </div>
-          <h3>Career Prep</h3>
+          <h3>Natalie Oh</h3>
           <p>
-            Our career services assist students with guest speaker sessions,
-            mentorship, resume, and interview workshops.
+            President
+          </p>
+          <p>
+            MCB & Nutritional Sciences and Toxicology
           </p>
         </div>
-      </div>  
-
-      {/* Bottom row of value blocks */}
-      <div className="values-row">
-        <div className="values-block">
-          <div className="values-img-container">
-            <img src={DanhTran} alt="Networking" />
+        <div className="officer-block">
+          <div className="officer-img-container">
+            <img src={NatalieOh} alt="Natalie Oh" />
           </div>
-          <h3>Networking</h3>
+          <h3>Danh Tranh</h3>
           <p>
-            Building professional relationships within the field of toxicology to support future career opportunities.
+          Vice President
           </p>
-      </div>
+          <p>
+          Data Science & MCB          
+          </p>
+        </div>
+        <div className="officer-block">
+          <div className="officer-img-container">
+            <img src={NatalieOh} alt="Natalie Oh" />
+          </div>
+          <h3>Jess Patrick</h3>
+          <p>
+          Secretary
+          </p>
+          <p>
+          MCB & Cognitive Science
+          </p>
+        </div>
+        <div className="officer-block">
+          <div className="officer-img-container">
+            <img src={NatalieOh} alt="Natalie Oh" />
+          </div>
+          <h3>Jess Patrick</h3>
+          <p>
+          Secretary
+          </p>
+          <p>
+          MCB & Cognitive Science
+          </p>
+        </div>
+        <div className="officer-block">
+          <div className="officer-img-container">
+            <img src={NatalieOh} alt="Natalie Oh" />
+          </div>
+          <h3>Jess Patrick</h3>
+          <p>
+          Secretary
+          </p>
+          <p>
+          MCB & Cognitive Science
+          </p>
+        </div>
+        <div className="officer-block">
+          <div className="officer-img-container">
+            <img src={NatalieOh} alt="Natalie Oh" />
+          </div>
+          <h3>Jess Patrick</h3>
+          <p>
+          Secretary
+          </p>
+          <p>
+          MCB & Cognitive Science
+          </p>
+        </div>
       </div>  
     </div>
   </>

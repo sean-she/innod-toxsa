@@ -40,7 +40,7 @@ export default function Body() {
               </div>
               <h3>Scientific Exploration</h3>
               <p>
-                Members will have opportunities to join toxicology projects and work on real-life collaborations with toxicology industries
+              Members will have the opportunity to attend research conferences and gain experience in toxicology through projects and external collaborations.
               </p>
           </div>
           <div className="values-block">

@@ -15,7 +15,7 @@ function Header() {
                         <li><a href="/" color="4295AF">Home</a></li>
                         <li><Link to="/about">About Us</Link></li>
                         <li><a href="/opportunities">Opportunities</a></li>
-                        <li><a href="/button" id="signup-link">Become a Member</a></li>
+                        <li><a href="/join" id="signup-link">Become a Member</a></li>
                     </ul>
                 </nav>
             </div>

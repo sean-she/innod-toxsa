@@ -10,7 +10,7 @@ export default function AboutHeader() {
             <img id="about-header-img" src={aboutus}/>
         </div>
         <div className='headerText'>
-            <h1>ToxSA unites students who are interested in toxicology, pharmacology, environmental health
+            <h1 class='headerh1'>ToxSA unites students who are interested in toxicology, pharmacology, environmental health
                     and related fields by providing mentorship, career preparation, networking, and community
                     service opportunities.</h1>
         </div>

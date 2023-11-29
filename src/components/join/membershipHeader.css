@@ -1,14 +1,14 @@
 .headerText {
     color: #4295AF;
-    margin-top: 56px;
-    text-align: right;
+    margin-top: 200px;
+    text-align: left;
     margin-bottom: 24px;
-    margin-left: 144px;
-    margin-right: 24px;
+    margin-left: 800px;
+    margin-right: 42px;
  }
  
  
-#about-header-img {
+#membership-header-img {
     max-width: 100%;       /* Adjust based on the desired size of your image */
     height: auto;         /* Maintain aspect ratio */
     position: absolute;
@@ -16,8 +16,8 @@
     left: 0;
  }
  
-.about-header {
-    height: 40vh;
+.membership-header {
+    height: 60vh;
 }
 
 .headerh1 {
