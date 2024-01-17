@@ -1,56 +1,59 @@
 .hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e8f0f2; /* Your background color */
-    padding: 50px 0; /* Adjust padding as needed */
-  }
-  
-  .hero-content {
+    position: relative;
+    height: 45rem;
+}
+
+#join-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.hero-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px; /* Adjust width as needed */
     margin: 0 auto;
-  }
-  
-  .hero-image-membership {
+}
+
+.hero-image-membership {
     flex-basis: 60%;
     background-size: cover; /* Adjust size as needed */
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     flex-basis: 50%;
     padding-left: 50px; /* Adjust padding as needed */
-  }
-  
-  .hero-text h1 {
+}
+
+.hero-text h1 {
     margin-bottom: 20px; /* Adjust spacing as needed */
     font-size: 1.5rem;
-  }
-  
-  .hero-text p {
+}
+
+.hero-text p {
     margin-bottom: 10px; /* Adjust spacing as needed */
-    color: #4295AF
-  }
-  
-  .interest-button {
+    color: #4295af;
+}
+
+.interest-button {
     padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #4295AF; /* Your button color */
+    background-color: #4295af; /* Your button color */
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .interest-button:hover {
-    background-color: #003459; /* Darker shade for hover effect */
-  }
+}
 
+.interest-button:hover {
+    background-color: #003459; /* Darker shade for hover effect */
+}
 
 /* BENEFITS SECTION STYLING */
 .membership-coloring {
-    color: #4296AF;
+    color: #4296af;
 }
 
 .benefits-section {
@@ -58,7 +61,7 @@
     flex-direction: row;
     height: 30vh;
     width: 100%;
-    background-color: #DDE9ED;
+    background-color: #dde9ed;
     padding: 3rem 0 2rem 0;
 }
 
@@ -109,5 +112,5 @@
     margin-left: 2rem;
     height: 60vh;
     width: 95%;
-    background-color: #F00;
+    background-color: #f00;
 }

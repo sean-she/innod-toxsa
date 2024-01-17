@@ -1,6 +1,6 @@
 import React from "react";
 import "./membership.css";
-import Header from "../Header/header";
+import HeroImage from "../../images/join-hero.png";
 import MembershipHeader from "./membershipHeader";
 import heroMembership from "../../images/heroMembership.png";
 import benefitsImage from "../../images/benefitsImage.png";
@@ -8,22 +8,9 @@ import benefitsImage from "../../images/benefitsImage.png";
 function Membership() {
     return (
         <>
-            <Header />
-            <MembershipHeader />
             <section className="hero-section">
-                <div className="hero-content">
-                    <div className="hero-image-membership">
-                        <img src={heroMembership} alt="Hero Membership Image" />
-                    </div>
-                    <div className="hero-text">
-                        <p>Anyone passionate about toxicology are welcome</p>
-                        <p>Our meetings are on Mondays 8–9 PM</p>
-                        <p>Simply fill out the interest form below</p>
-                        <button className="interest-button">
-                            Interest Form
-                        </button>
-                    </div>
-                </div>
+                <MembershipHeader />
+                <img id="join-hero-image" src={HeroImage}></img>
             </section>
             <section className="benefits-section">
                 <div className="benefits-text">

@@ -15,7 +15,9 @@ function Header() {
                 <a href="/about" color="4295AF">
                     About Us
                 </a>
-                <a href="/opportunities">Opportunities</a>
+                <a href="https://padlet.com/natalieoh2/toxsa-database-fkzjzhy5hrek34kv">
+                    Opportunities
+                </a>
                 <a href="/join" id="signup-link">
                     Become a Member
                 </a>

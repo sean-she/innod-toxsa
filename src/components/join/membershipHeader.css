@@ -1,25 +1,37 @@
-.headerText {
-    color: #4295AF;
-    margin-top: 200px;
-    text-align: left;
-    margin-bottom: 24px;
-    margin-left: 800px;
-    margin-right: 42px;
- }
- 
- 
-#membership-header-img {
-    max-width: 100%;       /* Adjust based on the desired size of your image */
-    height: auto;         /* Maintain aspect ratio */
-    position: absolute;
-    top: 0;
-    left: 0;
- }
- 
-.membership-header {
-    height: 60vh;
+.join-hero-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
 }
 
-.headerh1 {
-    font-size: 32px;
+.join-hero-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10rem;
+    gap: 3.75rem;
+}
+
+.join-hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.9375rem;
+    align-self: stretch;
+}
+
+.join-hero-text-container h1 {
+    align-self: stretch;
+    color: var(--primary);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin: 0;
 }
