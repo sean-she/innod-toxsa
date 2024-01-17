@@ -1,19 +1,19 @@
-import React from 'react';
-import './aboutHeader.css'; // Import the CSS file
-import  aboutus  from "../../images/aboutus.png";
-
+import React from "react";
+import "./aboutHeader.css"; // Import the CSS file
+import Header from "../Header/header";
 
 export default function AboutHeader() {
-   return (
-    <section className='about-header'>
-        <div className="about-header-div">
-            <img id="about-header-img" src={aboutus}/>
-        </div>
-        <div className='headerText'>
-            <h1 class='headerh1'>ToxSA unites students who are interested in toxicology, pharmacology, environmental health
-                    and related fields by providing mentorship, career preparation, networking, and community
-                    service opportunities.</h1>
-        </div>
-    </section>   
-   );
+    return (
+        <section id="aboutus-hero" className="hero">
+            <Header></Header>
+            <div className="aboutus-hero-text">
+                <h1>
+                    ToxSA unites students who are interested in toxicology,
+                    pharmacology, environmental health and related fields by
+                    providing mentorship, career preparation, networking, and
+                    community service opportunities.
+                </h1>
+            </div>
+        </section>
+    );
 }

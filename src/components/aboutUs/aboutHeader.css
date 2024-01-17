@@ -1,25 +1,29 @@
-.headerText {
-    color: #4295AF;
-    margin-top: 56px;
-    text-align: right;
-    margin-bottom: 24px;
-    margin-left: 144px;
-    margin-right: 24px;
- }
- 
- 
 #about-header-img {
-    max-width: 100%;       /* Adjust based on the desired size of your image */
-    height: auto;         /* Maintain aspect ratio */
     position: absolute;
+    max-width: 38rem;
     top: 0;
     left: 0;
- }
- 
-.about-header {
-    height: 40vh;
+    z-index: 0;
 }
 
-.headerh1 {
-    font-size: 32px;
+.aboutus-hero-text {
+    display: flex;
+    padding: 20.625rem 0 5.625rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.aboutus-hero-text h1 {
+    width: 41.25rem;
+    color: var(--primary);
+    font-family: Plus Jakarta Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: right;
+    margin: 0;
 }
