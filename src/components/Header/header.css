@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    width: 80rem;
+    overflow: hidden;
+    height: 5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.header-navbar a {
+    display: flex;
+    overflow: hidden;
+    padding: 1rem 1.375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.header-navbar nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.header-navbar ul {
+    display: flex; /* This will arrange list items horizontally */
+    align-items: center;
+    list-style: none; /* This will remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.header-navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#signup-link {
+    display: inline-block; /* Allows padding and margins to affect the element properly */
+    padding: 12px 20px; /* Adds some space around the text inside the rectangle */
+    border-radius: 10px; /* Rounds the corners */
+    background-color: #4295af; /* Ensures that there's no background color; adjust if you want one */
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+#signup-link:hover {
+    background-color: #2f6a7d; /* Optional: Change background color on hover */
+}
