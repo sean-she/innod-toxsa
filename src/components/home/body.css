@@ -1,3 +1,4 @@
+/* About Blurp */
 .highlight-container {
     background-color: var(--primary-light);
     padding: 5rem 0;
@@ -10,6 +11,10 @@
     margin: 0 auto;
     padding: 0 2rem;
     gap: 2rem;
+}
+
+.content-container img {
+    border-radius: 0.625rem;
 }
 
 .highlight-text-container {
