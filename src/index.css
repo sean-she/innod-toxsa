@@ -1,7 +1,10 @@
 :root {
     --primary: #4295af;
     --primary-light: #dde9ed;
+    --primary-dark: #2f6a7d;
+    --background: #fafafa;
 }
+
 body {
     margin: 0;
     font-family: Plus Jakarta Sans;
@@ -20,4 +23,19 @@ body {
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--background);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 1rem 1.375rem;
+}
+
+button:hover {
+    background-color: var(--primary-dark);
 }

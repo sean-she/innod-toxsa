@@ -1,57 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
-
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.body-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* gap: 80px; Adjust the gap as needed */
-  background-color: #DDE9ED;
-  padding: 100px;
-}
-
-.image-container img {
-    height: 400px; /* Set the width of the image */
-    width: auto;
-    /* Alternatively, you can use height: 200px; or any other value if you want a specific height. */
-  }
-
-.image-container {
-  width: 50%;
+.highlight-container {
+    background-color: var(--primary-light);
+    padding: 5rem 0;
 }
 
 .content-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Aligns the content to the left */
-  width: 50%;
-  padding-left: 4rem;
-  padding-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 2rem;
 }
 
-.content-container p {
-  margin-bottom: 20px; /* Adjust the space between paragraph and button */
-  color: #4296AF;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.6;
+.highlight-text-container {
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.8125rem;
 }
 
-button {
-  cursor: pointer;
-  background-color: #4295AF;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-#learnmore {
-  padding: 20px 30px; /* Adjust padding as needed */
+.highlight-text-container p {
+    align-self: stretch;
+    color: #4296af;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
 }
 
 .body-container p {
@@ -60,23 +37,23 @@ button {
 
 /* VALUES SECTION STYLING */
 .values-section {
-  width: 100%;
-  min-height: 40vh;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0;
+    width: 100%;
+    min-height: 40vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
 }
 
 #values_title {
-  margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 #values_underline {
-  border: 1px solid rgba(217, 217, 217);
-  height: 0;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 2rem;
+    border: 1px solid rgba(217, 217, 217);
+    height: 0;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
 }
 
 .values-container {
@@ -95,74 +72,75 @@ button {
     width: 25%;
 }
 
-.values-section h2, h3 {
-  color: #4295AF;
+.values-section h2,
+h3 {
+    color: #4295af;
 }
 
-.values-section h2{
-  padding-left: 3rem;
-  text-align: left;
+.values-section h2 {
+    padding-left: 3rem;
+    text-align: left;
 }
 
-.values-section p, h3 {
-  text-align: center;
-  margin-top: 0;
+.values-section p,
+h3 {
+    text-align: center;
+    margin-top: 0;
 }
 
 .values-section p {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: #303030;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #303030;
 }
 
 .values-block .values-img-container {
-  min-height: 10rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    min-height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
 
 /* JOIN BANNER STYLING */
 .join-section {
-  min-height: 10vh;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    min-height: 10vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .join-container {
-  background-color: rgba(198, 218, 168, 0.2);
-  border: 5px solid #C6DAA8;
-  border-radius: 20px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+    background-color: rgba(198, 218, 168, 0.2);
+    border: 5px solid #c6daa8;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .join-container h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .join-text {
-  margin: 2rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: center;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
 }
 
 .join-text * {
-  margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .join-container button {
-  height: 3rem;
-  font-weight: bold;
+    height: 3rem;
+    font-weight: bold;
 }
