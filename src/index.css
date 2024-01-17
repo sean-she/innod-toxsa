@@ -2,7 +2,10 @@
     --primary: #4295af;
     --primary-light: #dde9ed;
     --primary-dark: #2f6a7d;
+    --secondary: #c6daa8;
+    --secondary-light: #f0f4ea;
     --background: #fafafa;
+    --text: #303030;
 }
 
 body {
@@ -25,8 +28,9 @@ body {
     align-self: stretch;
 }
 
-button {
+.button {
     cursor: pointer;
+    font-family: Plus Jakarta Sans;
     background-color: var(--primary);
     color: var(--background);
     border: none;
@@ -34,8 +38,9 @@ button {
     font-size: 1.125rem;
     transition: background-color 0.3s, color 0.3s;
     padding: 1rem 1.375rem;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
     background-color: var(--primary-dark);
 }

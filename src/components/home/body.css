@@ -1,7 +1,5 @@
-/* About Blurp */
-.highlight-container {
-    background-color: var(--primary-light);
-    padding: 5rem 0;
+.container {
+    padding: 3rem 0;
 }
 
 .content-container {
@@ -17,6 +15,15 @@
     border-radius: 0.625rem;
 }
 
+/* About Blurp */
+#about-blurp {
+    background-color: var(--primary-light);
+}
+
+#about-blurp img {
+    max-width: 45%;
+}
+
 .highlight-text-container {
     display: flex;
     width: 40rem;
@@ -28,124 +35,119 @@
 
 .highlight-text-container p {
     align-self: stretch;
-    color: #4296af;
+    color: var(--primary);
     font-family: "Plus Jakarta Sans";
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.875rem;
-}
-
-.body-container p {
-    padding-bottom: 15px;
-}
-
-/* VALUES SECTION STYLING */
-.values-section {
-    width: 100%;
-    min-height: 40vh;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     margin: 0;
 }
 
-#values_title {
-    margin-left: 3rem;
+/*Values*/
+#values-content {
+    flex-direction: column;
+    gap: 3.75rem;
 }
 
-#values_underline {
-    border: 1px solid rgba(217, 217, 217);
-    height: 0;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
+.values-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.values-title-container h1 {
+    color: var(--primary);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin-bottom: 0.75rem;
 }
 
 .values-container {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    width: 100%;
     justify-content: space-around;
     align-items: flex-start;
 }
 
-.values-block {
+.value-container {
     display: flex;
+    width: 17.5rem;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 25%;
-}
-
-.values-section h2,
-h3 {
-    color: #4295af;
-}
-
-.values-section h2 {
-    padding-left: 3rem;
-    text-align: left;
-}
-
-.values-section p,
-h3 {
-    text-align: center;
-    margin-top: 0;
-}
-
-.values-section p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    color: #303030;
-}
-
-.values-block .values-img-container {
-    min-height: 10rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 0.9375rem;
 }
 
-/* JOIN BANNER STYLING */
+.value-container h1 {
+    color: var(--primary);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.value-container p {
+    align-self: stretch;
+    color: var(--text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* Join */
 .join-section {
-    min-height: 10vh;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    max-width: 80rem;
 }
 
 .join-container {
-    background-color: rgba(198, 218, 168, 0.2);
-    border: 5px solid #c6daa8;
-    border-radius: 20px;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-
-.join-container h1 {
-    font-size: 40px;
+    background-color: var(--secondary-light);
+    border: 3px solid var(--secondary);
+    border-radius: 20px;
+    padding: 2.5rem 3.75rem;
 }
 
 .join-text {
-    margin: 2rem 0 2rem 0;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
 }
 
-.join-text * {
-    margin: 0.5rem 0 0.5rem 0;
+.join-text h1 {
+    color: var(--text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
 }
 
-.join-container button {
-    height: 3rem;
-    font-weight: bold;
+.join-text p {
+    align-self: stretch;
+    color: var(--text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 0;
 }

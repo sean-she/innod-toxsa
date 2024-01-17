@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header/header";
+import Header from "../header/header";
 import "./membershipHeader.css"; // Import the CSS file
 import heroMembership from "../../images/heroMembership.png";
 

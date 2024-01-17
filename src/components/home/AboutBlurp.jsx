@@ -1,8 +1,8 @@
-import memberimage from "../../images/toxsaMemberImage.png";
+import memberimage from "../../images/about-blurp-image.png";
 
 export default function AboutBlurp() {
     return (
-        <section className="highlight-container">
+        <section id="about-blurp" className="container">
             <div className="content-container">
                 <img src={memberimage} alt="picture of toxsa members" />
                 <div className="highlight-text-container">
@@ -12,7 +12,9 @@ export default function AboutBlurp() {
                         providing mentorship, career preparation, networking,
                         and community service opportunities.
                     </p>
-                    <button>Learn more</button>
+                    <a className="button" href="/about">
+                        Learn more
+                    </a>
                 </div>
             </div>
         </section>

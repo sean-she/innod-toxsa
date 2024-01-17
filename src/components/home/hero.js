@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css"; // Import the CSS file
-import Header from "../Header/header";
+import Header from "../header/header";
 import heroImage from "../../images/home-hero.png";
 
 function Hero() {
