@@ -18,7 +18,7 @@ export default function Values() {
     return (
         <section id="values" className="container">
             <div id="values-content" className="content-container">
-                <div className="values-title-container">
+                <div className="title-container">
                     <h1>Our Values</h1>
                     <div className="underline"></div>
                 </div>
