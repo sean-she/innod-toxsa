@@ -45,3 +45,20 @@ body {
 .button:hover {
     background-color: var(--primary-dark);
 }
+
+.container {
+    padding: 3rem 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.content-container img {
+    border-radius: 0.625rem;
+}

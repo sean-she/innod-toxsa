@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutHeader.css"; // Import the CSS file
+import "./hero.css";
 import Header from "../header/header";
 
 export default function AboutHeader() {

@@ -1,15 +1,16 @@
 import Officers from "./officers";
-import AboutHeader from "./aboutHeader";
-import AboutBody from "./aboutBody";
-import Footer from "../footer/footer";
 import aboutus from "../../images/aboutus-hero.png";
+
+import Hero from "./Hero";
+import MemberBenefits from "./MemberBenefits";
+import Footer from "../footer/footer";
 
 function About() {
     return (
         <>
-            <AboutHeader />
+            <Hero />
             <img id="about-header-img" src={aboutus} />
-            <AboutBody />
+            <MemberBenefits></MemberBenefits>
             <Officers />
             <Footer></Footer>
         </>

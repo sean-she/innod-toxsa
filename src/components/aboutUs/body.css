@@ -1,0 +1,35 @@
+#memberbenefits {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-light);
+    gap: 7.5rem;
+}
+
+#memberbenefits-content {
+    align-items: center;
+    width: 100%;
+}
+
+.memberbenefit-text {
+    max-width: 40rem;
+}
+
+.memberbenefit-text h1 {
+    color: var(--primary);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.memberbenefit-text p {
+    align-self: stretch;
+    color: var(--text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
