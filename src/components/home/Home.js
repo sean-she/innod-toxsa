@@ -1,13 +1,18 @@
 import React from "react";
-import Footer from "../footer/footer";
+
 import Hero from "./hero";
-import Body from "./body";
+import AboutBlurp from "./AboutBlurp";
+import Values from "./Values";
+import Join from "./Join";
+import Footer from "../footer/footer";
 
 export default function Home() {
     return (
         <>
             <Hero />
-            <Body />
+            <AboutBlurp></AboutBlurp>
+            <Values></Values>
+            <Join></Join>
             <Footer />
         </>
     );

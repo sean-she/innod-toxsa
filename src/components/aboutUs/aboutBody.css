@@ -1,7 +1,7 @@
 /* MENTORSHIP AND CAREER PREP */
-.allContent{   
+.allContent {
     display: flex;
-    background-color: #F0F4EA;
+    background-color: #f0f4ea;
     padding: 60px 80px 40px 80px;
     align-items: center;
 }
@@ -24,56 +24,54 @@
     width: 35%;
     flex-direction: column;
     padding-left: 7rem;
-
 }
 
 .mentorship-title {
     display: flex;
-    color: #4296AF;
+    color: #4296af;
     font-size: 20px;
-    
 }
 
-.allContent p{
+.allContent p {
     max-width: 90%;
 }
 
 /* PROJECTS AND COMMUNITY SERVICE */
 
-.projects-content{
+.projects-content {
     display: flex;
-    background-color: #F0F4EA;
+    background-color: #f0f4ea;
     padding: 60px 0px 40px 80px;
     align-items: center;
 }
 
-.projects-title{
-    color: #4296AF;
+.projects-title {
+    color: #4296af;
     text-align: left;
     font-size: 20px;
 }
 
-.projects-image{
+.projects-image {
     width: 35%;
     padding-right: 6rem;
 }
 
-.projects-description{
+.projects-description {
     padding-right: 3rem;
     width: 50vw;
 }
 
 /* COMMUNITY */
-.community-content{
+.community-content {
     display: flex;
-    background-color: #F0F4EA;
+    background-color: #f0f4ea;
     padding: 40px 80px 60px 80px;
     align-items: center;
 }
 
 .community-title {
-display: flex;
-color:#4296AF;
+    display: flex;
+    color: #4296af;
 }
 
 .community-descrip {
