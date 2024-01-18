@@ -1,20 +1,20 @@
-#memberbenefits {
+#clubdesc {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-light);
     gap: 7.5rem;
 }
 
-#memberbenefits-content {
+#clubdesc-content {
     align-items: center;
     width: 100%;
 }
 
-.memberbenefit-text {
+.clubdesc-text {
     max-width: 40rem;
 }
 
-.memberbenefit-text h1 {
+.clubdesc-text h1 {
     color: var(--primary);
     font-family: "Plus Jakarta Sans";
     font-size: 1.5rem;
@@ -24,7 +24,7 @@
     margin: 0;
 }
 
-.memberbenefit-text p {
+.clubdesc-text p {
     align-self: stretch;
     color: var(--text);
     font-family: "Plus Jakarta Sans";
@@ -32,4 +32,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
+}
+
+#clubdesc-content img {
+    max-width: 30rem;
 }

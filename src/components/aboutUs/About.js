@@ -2,7 +2,7 @@ import Officers from "./officers";
 import aboutus from "../../images/aboutus-hero.png";
 
 import Hero from "./Hero";
-import MemberBenefits from "./MemberBenefits";
+import ClubDesc from "./ClubDesc";
 import Footer from "../footer/footer";
 
 function About() {
@@ -10,7 +10,7 @@ function About() {
         <>
             <Hero />
             <img id="about-header-img" src={aboutus} />
-            <MemberBenefits></MemberBenefits>
+            <ClubDesc></ClubDesc>
             <Officers />
             <Footer></Footer>
         </>

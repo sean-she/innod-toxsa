@@ -1,14 +1,14 @@
 import "./body.css";
 
-import MentorshipImage from "../../images/newCommunityImage.png";
-import ProjectsImage from "../../images/newProjectImage.png";
-import CommunityImage from "../../images/newMentorshipImage.png";
+import MentorshipImage from "../../images/mentorship.png";
+import ProjectsImage from "../../images/projects.png";
+import CommunityImage from "../../images/community.png";
 
-export default function MemberBenefits() {
+export default function ClubDesc() {
     return (
-        <div id="memberbenefits" className="container">
-            <div id="memberbenefits-content" className="content-container">
-                <div className="memberbenefit-text">
+        <div id="clubdesc" className="container">
+            <div id="clubdesc-content" className="content-container">
+                <div className="clubdesc-text">
                     <h1>Mentorship and Career Preparations</h1>
                     <p>
                         Our career services offer mentoring, speaker events,
@@ -20,9 +20,9 @@ export default function MemberBenefits() {
                 </div>
                 <img src={MentorshipImage}></img>
             </div>
-            <div id="memberbenefits-content" className="content-container">
+            <div id="clubdesc-content" className="content-container">
                 <img src={ProjectsImage}></img>
-                <div className="memberbenefit-text">
+                <div className="clubdesc-text">
                     <h1>Projects and Community Service</h1>
                     <p>
                         ToxSA has previously championed the Lead Education
@@ -35,8 +35,8 @@ export default function MemberBenefits() {
                     </p>
                 </div>
             </div>
-            <div id="memberbenefits-content" className="content-container">
-                <div className="memberbenefit-text">
+            <div id="clubdesc-content" className="content-container">
+                <div className="clubdesc-text">
                     <h1>Community</h1>
                     <p>
                         Our aim is to foster a nurturing and inclusive community
