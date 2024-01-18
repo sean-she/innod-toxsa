@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../header/header";
-import "./membershipHeader.css"; // Import the CSS file
-import heroMembership from "../../images/heroMembership.png";
+import "./hero.css";
 
 export default function MembershipHeader() {
     return (
@@ -20,7 +19,12 @@ export default function MembershipHeader() {
                             Simply fill out the interest form below
                         </h1>
                     </div>
-                    <button className="interest-button">Interest Form</button>
+                    <a
+                        className="button"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfBs0XcPcaEjKc4qPdRYLtHI3h1qupbUryJJnFijvtB0_kyeQ/viewform"
+                    >
+                        Interest form
+                    </a>
                 </div>
             </div>
         </section>

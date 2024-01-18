@@ -3,7 +3,7 @@ import memberimage from "../../images/about-blurp-image.png";
 export default function AboutBlurp() {
     return (
         <section id="about-blurp" className="container">
-            <div className="content-container">
+            <div id="about-blurp-content" className="content-container">
                 <img src={memberimage} alt="picture of toxsa members" />
                 <div className="highlight-text-container">
                     <p>

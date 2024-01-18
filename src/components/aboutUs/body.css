@@ -7,11 +7,10 @@
 
 #clubdesc-content {
     align-items: center;
-    width: 100%;
 }
 
 .clubdesc-text {
-    max-width: 40rem;
+    max-width: 50%;
 }
 
 .clubdesc-text h1 {
@@ -35,5 +34,5 @@
 }
 
 #clubdesc-content img {
-    max-width: 30rem;
+    max-width: 40%;
 }

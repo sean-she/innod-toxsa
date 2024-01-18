@@ -9,8 +9,10 @@ export default function Values() {
         return (
             <div className="value-container">
                 <img src={image}></img>
-                <h1>{title}</h1>
-                <p>{desc}</p>
+                <div className="value-text-container">
+                    <h1>{title}</h1>
+                    <p>{desc}</p>
+                </div>
             </div>
         );
     }
