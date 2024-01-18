@@ -1,5 +1,4 @@
 import React from "react";
-import body from "./body.css";
 
 import AboutBlurp from "./AboutBlurp";
 import Values from "./Values";

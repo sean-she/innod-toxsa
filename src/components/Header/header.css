@@ -1,11 +1,15 @@
 .header {
     display: flex;
     overflow: hidden;
-    height: 5rem;
+    height: 6.5rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+}
+
+.header img {
+    max-width: 8rem;
 }
 
 .header-navbar {
@@ -21,32 +25,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.625rem;
-}
-
-.header img {
-    max-width: 8rem;
-}
-
-.header-navbar nav {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
-
-.header-navbar a {
     text-decoration: none;
-    color: #000;
+    font-size: 1rem;
 }
 
-#signup-link {
-    display: inline-block; /* Allows padding and margins to affect the element properly */
-    padding: 12px 20px; /* Adds some space around the text inside the rectangle */
-    border-radius: 10px; /* Rounds the corners */
-    background-color: #4295af; /* Ensures that there's no background color; adjust if you want one */
-    color: #fff;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
-}
-
-#signup-link:hover {
-    background-color: #2f6a7d; /* Optional: Change background color on hover */
+.link {
+    color: var(--text);
 }

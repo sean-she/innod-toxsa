@@ -9,17 +9,20 @@ function Header() {
         <header className="header">
             <img src={logo} alt="toxsa logo" />
             <nav className="header-navbar">
-                <a href="/" color="4295AF">
+                <a className="link" href="/">
                     Home
                 </a>
-                <a href="/about" color="4295AF">
+                <a className="link" href="/about">
                     About Us
                 </a>
-                <a href="https://padlet.com/natalieoh2/toxsa-database-fkzjzhy5hrek34kv">
+                <a
+                    className="link"
+                    href="https://padlet.com/natalieoh2/toxsa-database-fkzjzhy5hrek34kv"
+                >
                     Opportunities
                 </a>
-                <a href="/join" id="signup-link">
-                    Become a Member
+                <a className="button" href="/join">
+                    Become a member
                 </a>
             </nav>
         </header>
