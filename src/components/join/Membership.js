@@ -4,6 +4,7 @@ import HeroImage from "../../images/join-hero.png";
 import MembershipHeader from "./membershipHeader";
 import heroMembership from "../../images/heroMembership.png";
 import benefitsImage from "../../images/benefitsImage.png";
+import Footer from "../footer/footer";
 
 function Membership() {
     return (
@@ -48,6 +49,7 @@ function Membership() {
                     {/* IMPORT THE REACT CALENDAR PACKAGE HERE */}
                 </div>
             </section>
+            <Footer></Footer>
         </>
     );
 }
