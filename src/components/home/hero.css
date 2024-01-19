@@ -1,7 +1,6 @@
 .home-hero-text {
     display: flex;
     height: 43.125rem;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -37,4 +36,43 @@
     right: 2rem;
     height: 100%;
     z-index: 0;
+}
+
+.hero-image-mobile img {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-image img {
+        display: none;
+    }
+
+    .hero-image-mobile img {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .home-hero-text {
+        height: 30rem;
+    }
+
+    .home-hero-text h1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-hero-text {
+        height: 25rem;
+    }
+
+    .home-hero-text h2 {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .home-hero-text h1 {
+        font-size: 3rem;
+    }
 }
