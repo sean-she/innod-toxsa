@@ -50,7 +50,7 @@ export default class Calendar extends React.Component {
         );
     }
 
-    handleEventClick = (clickInfo) => {
+    handleEventClick = () => {
         window.open(
             "https://calendar.google.com/calendar/u/1?cid=Y18yYjNhOGEwZGFhNDE1ZDNiZGQ0YmZiMjQyNzE3ZTI3MWJkMjg1MDc4MGZiNTE4MjJiYTNlY2Y3NjE4Mjc1YjVlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
         );
