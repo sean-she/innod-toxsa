@@ -20,7 +20,7 @@ export default function ClubDesc() {
                 </div>
                 <img src={MentorshipImage}></img>
             </div>
-            <div id="clubdesc-content" className="content-container">
+            <div id="clubdesc-content-reverse" className="content-container">
                 <img src={ProjectsImage}></img>
                 <div className="clubdesc-text">
                     <h1>Projects and Community Service</h1>

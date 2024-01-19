@@ -5,7 +5,8 @@
     gap: 7.5rem;
 }
 
-#clubdesc-content {
+#clubdesc-content,
+#clubdesc-content-reverse {
     align-items: center;
 }
 
@@ -33,6 +34,31 @@
     line-height: 1.875rem;
 }
 
-#clubdesc-content img {
+#clubdesc-content img,
+#clubdesc-content-reverse img {
     max-width: 40%;
+}
+
+@media screen and (max-width: 950px) {
+    #clubdesc-content {
+        flex-direction: column-reverse;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #clubdesc-content-reverse {
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #clubdesc-content img,
+    #clubdesc-content-reverse img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .clubdesc-text {
+        max-width: 100%;
+    }
 }
