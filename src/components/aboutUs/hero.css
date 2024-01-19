@@ -1,6 +1,6 @@
 #about-header-img {
     position: absolute;
-    width: 50vw;
+    width: 45vw;
     top: 0;
     left: 0;
     z-index: 0;
@@ -28,7 +28,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
     #about-header-img {
         display: none;
     }
