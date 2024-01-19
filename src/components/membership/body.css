@@ -70,3 +70,17 @@ ul {
 .fc-daygrid-dot-event .fc-event-title {
     font-weight: 600;
 }
+
+@media screen and (max-width: 950px) {
+    #benefits-container {
+        flex-direction: column-reverse;
+    }
+
+    #benefits-container img {
+        max-width: 100%;
+    }
+
+    .benefits-text {
+        max-width: 100%;
+    }
+}
