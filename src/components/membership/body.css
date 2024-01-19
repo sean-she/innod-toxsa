@@ -53,3 +53,20 @@ ul {
 #benefits-container img {
     max-width: 45%;
 }
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#event-content {
+    flex-direction: column;
+}
+
+.fc-daygrid-dot-event {
+    color: var(--text);
+}
+
+.fc-daygrid-dot-event .fc-event-title {
+    font-weight: 600;
+}

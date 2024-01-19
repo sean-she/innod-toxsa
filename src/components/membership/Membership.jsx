@@ -7,6 +7,7 @@ import HeroImage from "../../images/join-hero.png";
 import Hero from "./Hero";
 import Footer from "../footer/footer";
 import MemberBenefits from "./MemberBenefits";
+import Events from "./Events";
 
 function Membership() {
     return (
@@ -16,12 +17,7 @@ function Membership() {
                 <img id="join-hero-image" src={HeroImage}></img>
             </section>
             <MemberBenefits></MemberBenefits>
-            <section className="calendar-section">
-                <h1 className="membership-coloring">Events</h1>
-                <div className="calendar">
-                    {/* IMPORT THE REACT CALENDAR PACKAGE HERE */}
-                </div>
-            </section>
+            <Events></Events>
             <Footer></Footer>
         </>
     );

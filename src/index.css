@@ -6,6 +6,12 @@
     --secondary-light: #f0f4ea;
     --background: #fafafa;
     --text: #303030;
+    --fc-button-bg-color: var(--primary);
+    --fc-button-border-color: var(--primary);
+    --fc-button-hover-bg-color: var(--primary-dark);
+    --fc-button-hover-border-color: var(--primary-dark);
+    --fc-button-active-bg-color: var(--primary-dark);
+    --fc-button-active-border-color: var(--primary-dark);
 }
 
 body {

@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./components/home/Home.js";
-import About from "./components/aboutUs/About.js";
-import Membership from "./components/join/Membership.js";
+import Home from "./components/home/Home";
+import About from "./components/aboutUs/About";
+import Membership from "./components/membership/Membership";
 
 import "./App.css";
 
