@@ -27,3 +27,21 @@
     text-align: right;
     margin: 0;
 }
+
+@media screen and (max-width: 720px) {
+    #about-header-img {
+        display: none;
+    }
+
+    .aboutus-hero-text {
+        padding: 5.625rem 0;
+    }
+
+    .aboutus-hero-text h1 {
+        width: auto;
+    }
+
+    #aboutus-hero {
+        height: auto;
+    }
+}

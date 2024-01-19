@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .hero {
+    #home-hero {
         height: auto;
     }
     .hero-image img {
