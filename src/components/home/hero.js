@@ -6,7 +6,7 @@ import heroImageMobile from "../../images/home-hero-mobile.png";
 
 function Hero() {
     return (
-        <section className="hero">
+        <section id="home-hero" className="hero">
             <Header></Header>
             <div className="home-hero-text">
                 <h2 id="uc-berkeley">UC Berkeley</h2>

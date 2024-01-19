@@ -41,7 +41,6 @@ body {
     color: var(--background);
     border: none;
     border-radius: 10px;
-    font-size: 1.125rem;
     transition: background-color 0.3s, color 0.3s;
     padding: 1rem 1.375rem;
     text-decoration: none;

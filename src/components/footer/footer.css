@@ -15,6 +15,7 @@
     align-self: stretch;
     padding-top: 2.5rem;
     border-top: 1px solid #d9d9d9;
+    gap: 5rem;
 }
 
 .footer-left-container {
@@ -74,118 +75,18 @@
     text-decoration: none;
 }
 
-/* .footer-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+@media screen and (max-width: 950px) {
+    .footer-ocf-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
-#topline {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-top: 1px solid #D9D9D9;
+@media screen and (max-width: 700px) {
+    .footer-left-container {
+        width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
 }
-
-#footer_toxlogo {
-    margin-left: 3rem;
-}
-
-.footer-navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    /* justify-content: flex-start;
-}
-
-.footer-navigation,
-.logo-container {
-    width: 50%;
-    height: inherit;
-}
-
-.footer-container a, p {
-  text-decoration: none;
-  color: #303030;
-  text-align: left;
-}
-
-.footer-pages {
-    display: flex;
-    flex-direction: column;
-    margin-left: 6rem;
-    font-size: 18px;
-}
-
-.footer-contact {
-    display: flex;
-    flex-direction: column;
-    margin-left: 7rem;
-    font-size: 18px;
-}
-
-#contactus {
-    font-size: 12px;
-}
-
-.logo-midsection {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    /* width: 0%;
-}
-
-.logo-midsection * {
-    margin: 0;
-    padding: 0;
-    width: 90%;
-}
-
-.logo-midsection img {
-    height: 4rem;
-}
-
-.contain-width {
-    width: 70%;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
-.description {
-    font-size: 9px;
-    width: 40%;
-    padding-top: 0.4rem;
-}
-
-#copyright {
-    font-size: 16px;
-    text-align: center;
-    padding-top: 0.5rem;
-}
-
-.ocf {
-    margin-left: 3rem;
-    padding-right: 1.5rem;
-    width: 32%;
-}
-
-#leftspace {
-    width: 12%;
-}
-
-#rightspace {
-    width: 16%;
-} */

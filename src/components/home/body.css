@@ -96,6 +96,7 @@
     border: 3px solid var(--secondary);
     border-radius: 20px;
     padding: 2.5rem 3.75rem;
+    gap: 2rem;
 }
 
 .join-text {
@@ -158,6 +159,13 @@
     .value-container p {
         text-align: left;
     }
+
+    .join-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        align-items: flex-start;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -178,5 +186,9 @@
 
     .value-container p {
         text-align: center;
+    }
+
+    .join-text h1 {
+        font-size: 1.5rem;
     }
 }

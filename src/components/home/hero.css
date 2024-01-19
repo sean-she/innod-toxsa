@@ -43,6 +43,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .hero {
+        height: auto;
+    }
     .hero-image img {
         display: none;
     }

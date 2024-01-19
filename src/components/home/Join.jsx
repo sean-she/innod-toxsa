@@ -9,7 +9,7 @@ export default function Join() {
                         interest form
                     </p>
                 </div>
-                <a className="button" href="/join">
+                <a id="join-button" className="button" href="/join">
                     Become a member
                 </a>
             </div>
