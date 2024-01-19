@@ -89,4 +89,10 @@
     .footer-content {
         flex-direction: column;
     }
+
+    .footer-right-container {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+    }
 }

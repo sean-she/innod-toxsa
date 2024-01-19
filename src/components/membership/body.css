@@ -71,7 +71,39 @@ ul {
     font-weight: 600;
 }
 
-@media screen and (max-width: 950px) {
+/* Assuming DesktopCalendar and MobileCalendar have these classes */
+.desktop-calendar {
+    display: block; /* Show by default */
+}
+
+.mobile-calendar {
+    display: none; /* Hide by default */
+}
+
+/* When screen width is below 750px */
+@media screen and (max-width: 800px) {
+    .desktop-calendar {
+        display: none; /* Hide the desktop calendar */
+    }
+    .mobile-calendar {
+        display: block; /* Show the mobile calendar */
+    }
+    .fc .fc-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .fc .fc-toolbar-title {
+        font-size: 1.25rem;
+    }
+
+    .fc .fc-button {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
     #benefits-container {
         flex-direction: column-reverse;
     }

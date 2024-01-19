@@ -1,4 +1,5 @@
-import Calendar from "./Calendar";
+import DesktopCalendar from "./DesktopCalendar";
+import MobileCalendar from "./MobileCalendar";
 
 export default function Events() {
     return (
@@ -7,7 +8,12 @@ export default function Events() {
                 <div className="title-container">
                     <h1>Events</h1>
                 </div>
-                <Calendar></Calendar>
+                <div className="desktop-calendar">
+                    <DesktopCalendar></DesktopCalendar>
+                </div>
+                <div className="mobile-calendar">
+                    <MobileCalendar></MobileCalendar>
+                </div>
             </div>
         </div>
     );
