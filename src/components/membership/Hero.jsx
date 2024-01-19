@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header/header";
 import "./hero.css";
+import mobileimage from "../../images/home-hero-mobile.png";
 
 export default function MembershipHeader() {
     return (
@@ -26,6 +27,7 @@ export default function MembershipHeader() {
                         Interest form
                     </a>
                 </div>
+                <img id="mobile-hero-image" src={mobileimage}></img>
             </div>
         </section>
     );
