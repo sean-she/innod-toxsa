@@ -39,7 +39,7 @@ export default class Calendar extends React.Component {
                         googleCalendarApiKey="AIzaSyDCOXhfhMw7mu-1Y1jcwEKkkC4UkYZum4U"
                         events={{
                             googleCalendarId:
-                                "c_2b3a8a0daa415d3bdd4bfb242717e271bd2850780fb51822ba3ecf7618275b5e@group.calendar.google.com",
+                                "c_c4b7ad91308cfd0e9a91847f3d2952bb10c96b39e2957a486c415daa3a3e2ba9@group.calendar.google.com",
                         }}
                         eventColor="var(--primary)"
                         select={this.handleDateSelect}
