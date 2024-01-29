@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css"; // Import the CSS file
-import Header from "../header/header";
+import Header from "../Header/header";
 import heroImage from "../../images/home-hero.png";
 import heroImageMobile from "../../images/home-hero-mobile.png";
 
