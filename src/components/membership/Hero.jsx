@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../header/header";
+import Header from "../Header/header";
 import "./hero.css";
 import mobileimage from "../../images/home-hero-mobile.png";
 
@@ -14,7 +14,7 @@ export default function MembershipHeader() {
                             Anyone passionate about toxicology is welcome!
                         </h1>
                         <h1 class="headerh1">
-                            Our meetings are on Mondays 8–9 PM
+                            Our meetings are on Mondays 8-9 PM
                         </h1>
                         <h1 class="headerh1">
                             Simply fill out the interest form below
