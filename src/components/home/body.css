@@ -19,7 +19,7 @@
 .highlight-text-container p {
     align-self: stretch;
     color: var(--primary);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
@@ -60,7 +60,7 @@
 
 .value-container h1 {
     color: var(--primary);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;
@@ -71,7 +71,7 @@
 .value-container p {
     align-self: stretch;
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -108,7 +108,7 @@
 
 .join-text h1 {
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
@@ -119,7 +119,7 @@
 .join-text p {
     align-self: stretch;
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;

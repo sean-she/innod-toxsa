@@ -16,7 +16,7 @@
 
 .clubdesc-text h1 {
     color: var(--primary);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -27,7 +27,7 @@
 .clubdesc-text p {
     align-self: stretch;
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;

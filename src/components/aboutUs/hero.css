@@ -19,7 +19,7 @@
 .aboutus-hero-text h1 {
     width: 41.25rem;
     color: var(--primary);
-    font-family: Plus Jakarta Sans;
+    /* font-family: Plus Jakarta Sans; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Plus Jakarta Sans");
+
 :root {
     --primary: #4295af;
     --primary-light: #dde9ed;
@@ -36,7 +38,7 @@ body {
 
 .button {
     cursor: pointer;
-    font-family: Plus Jakarta Sans;
+    /* font-family: "Plus Jakarta Sans"; */
     background-color: var(--primary);
     color: var(--background);
     border: none;
@@ -78,7 +80,7 @@ body {
 
 .title-container h1 {
     color: var(--primary);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;

@@ -33,7 +33,7 @@
 
 .officer-text h1 {
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -43,7 +43,7 @@
 
 .officer-text p {
     color: var(--text);
-    font-family: "Plus Jakarta Sans";
+    /* font-family: "Plus Jakarta Sans"; */
     font-size: 0.9rem;
     font-style: normal;
     font-weight: 400;
