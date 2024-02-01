@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import Header from "../Header/header";
+import Header from "../header/header";
 
 export default function AboutHeader() {
     return (
