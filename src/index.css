@@ -18,7 +18,7 @@
 
 body {
     margin: 0;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #fafafa;
@@ -47,6 +47,7 @@ body {
     padding: 1rem 1.375rem;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .button:hover {

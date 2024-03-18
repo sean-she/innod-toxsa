@@ -28,12 +28,18 @@
 .mobile-navbar a {
     display: flex;
     overflow: hidden;
-    padding: 1rem 1.375rem;
+    padding: 1rem 1.25rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.625rem;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: bold;
+}
+
+.imglink {
+    display: flex;
+    align-items: center;
 }
 
 .link {

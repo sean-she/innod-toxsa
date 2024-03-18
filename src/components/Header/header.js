@@ -14,7 +14,8 @@ function Header() {
     return (
         <header className="header">
             <div className="desktop-navbar">
-                <img src={logo} alt="toxsa logo" />
+                <a className="imglink" href="/"><img src={logo} alt="toxsa logo" /></a>
+                {/* <img src={logo} alt="toxsa logo" /> */}
                 <nav className="header-navbar">
                     <a className="link" href="/">
                         Home
@@ -29,7 +30,7 @@ function Header() {
                         Opportunities
                     </a>
                     <a className="button" href="/join">
-                        Become a member
+                        Become a Member
                     </a>
                     <img
                         src={hamburgericon}
@@ -53,7 +54,7 @@ function Header() {
                     Opportunities
                 </a>
                 <a className="button" href="/join">
-                    Become a member
+                    Become a Member
                 </a>
             </nav>
         </header>

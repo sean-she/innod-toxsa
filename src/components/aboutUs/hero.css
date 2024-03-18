@@ -1,9 +1,9 @@
 #about-header-img {
     position: absolute;
-    width: 45vw;
+    /* width: 45vw; */
     top: 0;
     left: 0;
-    z-index: 0;
+    height: 100%;
 }
 
 .aboutus-hero-text {

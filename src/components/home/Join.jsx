@@ -10,7 +10,7 @@ export default function Join() {
                     </p>
                 </div>
                 <a id="join-button" className="button" href="/join">
-                    Become a member
+                    Become a Member
                 </a>
             </div>
         </section>

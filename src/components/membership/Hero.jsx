@@ -24,7 +24,7 @@ export default function MembershipHeader() {
                         className="button"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfBs0XcPcaEjKc4qPdRYLtHI3h1qupbUryJJnFijvtB0_kyeQ/viewform"
                     >
-                        Interest form
+                        Interest Form
                     </a>
                 </div>
                 <img id="mobile-hero-image" src={mobileimage}></img>
